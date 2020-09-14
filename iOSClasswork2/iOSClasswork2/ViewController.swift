@@ -28,7 +28,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             emojiArray.append("🐥")
         }
         else {
-            emojiArray.append("🦋")
+            emojiArray.append("❓")
         }
         
     
@@ -49,7 +49,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             animalEmojiLabel.text! += label
         }
         /// **BONUS**: 🎁 قم بمسح مكونات المصفوفة بعد عرضها
-   
+        emojiArray.removeAll()
     
         
         
