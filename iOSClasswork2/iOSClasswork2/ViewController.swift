@@ -18,6 +18,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func AddAnimalToArray(_ sender: Any) {
         var animal = animalTextField.text!
+        emojiArray.append(animal)
+        
         
         
         // MARK: - 1️⃣ emojiArray  الي  animal قم باضافه متغير
